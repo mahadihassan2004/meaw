@@ -1,0 +1,137 @@
+
+
+
+
+
+fieldset{
+    width: 300px;
+    height: 400px;
+    margin: 150px auto;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: linear-gradient(to right,#0072EA,#00BCD9);
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: none;
+  
+
+}
+
+
+i{
+    font-size: 70px;
+    margin-top: -10px;
+    text-shadow: 2px 5px 12px rgb(5, 5, 5) ;
+    background: linear-gradient(to right,rgb(91, 121, 206),rgb(125, 211, 238));
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 5px solid black;
+    
+}
+
+.input2{
+    padding: 10px;
+    width: 250px;
+    border-radius:15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+    
+}
+
+.input3{
+    padding: 10px;
+    width: 250px;
+    border-radius:15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+
+}
+
+
+    
+   
+.input1{
+    padding: 10px;
+    width: 270px;
+    border-radius:15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+
+
+
+
+.from{
+    text-align: center;
+    margin: 30px auto;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -180px;
+}
+
+
+.input1:hover{
+
+    padding: 10px;
+    width: 270px;
+    border-radius:15px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.input2:hover{
+    padding: 10px;
+    width: 270px;
+    border-radius:15px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.input3:hover{
+    padding: 10px;
+    width: 270px;
+    border-radius:15px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+a{
+    color: whitesmoke;
+}
+a:hover{
+    color: black;
+}
+
+
+/*Mobile view*/
+
+@media (max-hight920px){
+}
+
+@media(max-width:720px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+
+    }
+    fieldset{
+        box-shadow: 20px 20px 12px black;
+        padding-top: 100px;
+    }
+    i{
+        margin-top: -100px;  
+    }
+    
+}
+
+
+
